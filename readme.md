@@ -1,3 +1,3 @@
 # Django baby steps
 
-... Djano em doses homeopáticas!
+... Django em doses homeopáticas!
