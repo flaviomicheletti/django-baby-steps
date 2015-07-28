@@ -1,10 +1,6 @@
 import foo
-import settings
 import unittest
 from django.test import Client
-
-import django
-django.setup()
 
 def foo():
     cli = Client()
@@ -18,4 +14,3 @@ class MyTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
