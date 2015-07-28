@@ -6,7 +6,8 @@ from django.conf import settings
 settings.configure(
     DEBUG = True,
     ALLOWED_HOSTS = ['localhost'],
-    ROOT_URLCONF = 'foo',
+    ROOT_URLCONF = '__main__',
+    # ROOT_URLCONF = 'foo',
     MIDDLEWARE_CLASSES = (
         'django.middleware.common.CommonMiddleware',
         'django.middleware.csrf.CsrfViewMiddleware',
@@ -15,7 +16,7 @@ settings.configure(
 )
 
 #
-# View (semelhante a um controller)
+# View
 #
 from django.conf.urls import url
 from django.http import HttpResponse
@@ -26,3 +27,11 @@ def index(request):
 urlpatterns = (
     url(r'^$', index),
 )
+
+#
+# Terminal
+#
+if __name__ == "__main__":
+    import sys
+    from django.core.management import execute_from_command_line
+    execute_from_command_line(sys.argv)
