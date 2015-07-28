@@ -1,11 +1,10 @@
 import foo
 import unittest
 
-import django
-django.setup()
 
 def foo():
     return True
+
 
 class MyTest(unittest.TestCase):
     def test(self):
