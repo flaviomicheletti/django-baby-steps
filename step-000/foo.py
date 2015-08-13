@@ -1,6 +1,7 @@
 #
 # Settings
 #
+
 # from django.conf import settings
 
 # settings.configure(
@@ -15,7 +16,7 @@
 # )
 
 import django
-django.setup()
+# django.setup()
 print(django.get_version())
 
 #
