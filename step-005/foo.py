@@ -1,5 +1,5 @@
 import settings
-import urls
+import urls # não necessário
 
 
 #
