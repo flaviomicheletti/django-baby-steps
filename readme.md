@@ -1,6 +1,6 @@
 # Django baby steps
 
-... Django em doses homeopáticas!
+...Django em doses homeopáticas!
 
 
 ### Instalação
@@ -25,9 +25,15 @@ Antes de tudo, atualize o [pip](http://www.devfuria.com.br/linux/cookbook/pip/).
 
 Instale o Django.
 
-    pip install Django==1.8
+    python -m pip install Django
+    // or
+    pip install Django==4.1
 
 Testando...
 
-    python /step-000/foo.py
-    # 1.8
+    python3 -c "import django; print(django.get_version())"
+
+    // or
+
+    python3 ./step-000/foo.py
+    # 4.1
