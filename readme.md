@@ -46,3 +46,7 @@ Testing...
 
     python3 ./step-000/foo.py
     # 4.1
+
+When you finish
+
+    deactivate
