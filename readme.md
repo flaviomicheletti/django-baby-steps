@@ -1,35 +1,41 @@
 # Django baby steps
 
-...Django em doses homeopáticas!
+Do you know how to put Django in a single script?
+
+Can you deconstruct the folder structure?
+
+Don't?
+
+So come with me and I'll show you!
 
 
-### Instalação
+## Installation
 
-Clone o projeto.
+Clone the project.
 
-    cd seus/projetos/
+    cd your/projects/
     git clone https://github.com/devfuria/django-baby-steps.git
     cd django-baby-steps/
 
-Inicie o [virtualenv](http://www.devfuria.com.br/linux/cookbook/virtualenv/) na pasta atual.
+Launch the [virtualenv](http://www.devfuria.com.br/linux/cookbook/virtualenv/) in the current folder.
 
     virtualenv .
 
-Ative o ambiente virtual.
+Turn on the virtual environment.
 
     source bin/activate
 
-Antes de tudo, atualize o [pip](http://www.devfuria.com.br/linux/cookbook/pip/).
+First of all, update the [pip](http://www.devfuria.com.br/linux/cookbook/pip/).
 
     pip install --upgrade pip
 
-Instale o Django.
+Install Django.
 
     python -m pip install Django
     // or
     pip install Django==4.1
 
-Testando...
+Testing...
 
     python3 -c "import django; print(django.get_version())"
 
