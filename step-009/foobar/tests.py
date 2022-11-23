@@ -1,10 +1,12 @@
 import foo.settings
 import unittest
+
 from django.test import Client
 
 def foo():
     cli = Client()
     return cli.get('/')
+
 
 class MyTest(unittest.TestCase):
     def test(self):
@@ -14,3 +16,5 @@ class MyTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+# python3 ./step-009/manage.py test foobar 
