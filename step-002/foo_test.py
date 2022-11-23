@@ -11,5 +11,6 @@ class MyTest(unittest.TestCase):
         response = foo()
         self.assertEqual(True, foo())
 
+
 if __name__ == '__main__':
     unittest.main()
