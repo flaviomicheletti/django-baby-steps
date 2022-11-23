@@ -16,3 +16,6 @@ class MyTest(TestCase):
 
 # if __name__ == '__main__':
     # unittest.main()
+
+
+# python3 ./step-010/manage.py test foobar
