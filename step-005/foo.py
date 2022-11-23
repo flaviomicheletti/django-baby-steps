@@ -1,6 +1,5 @@
 import settings
-import urls # não necessário
-
+# import urls # não necessário
 
 #
 # Terminal
