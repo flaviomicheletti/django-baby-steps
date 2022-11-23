@@ -5,9 +5,9 @@ from django.conf import settings
 
 settings.configure(
     DEBUG = True,
-    ALLOWED_HOSTS = ['localhost'],
-    ROOT_URLCONF = '__main__',
-    # ROOT_URLCONF = 'foo',
+    ALLOWED_HOSTS = ['localhost', 'testserver'],
+    ROOT_URLCONF = 'foo',
+    SECRET_KEY = 'django-insecure-u7_!un885z@tfdh^=leqq6y(v@hz)7*y8a7*dw+jxpf61*vajy',    
     MIDDLEWARE_CLASSES = (
         'django.middleware.common.CommonMiddleware',
         'django.middleware.csrf.CsrfViewMiddleware',
@@ -18,15 +18,16 @@ settings.configure(
 #
 # View
 #
-from django.conf.urls import url
+from django.urls import path
 from django.http import HttpResponse
 
 def index(request):
     return HttpResponse('Hello World')
 
 urlpatterns = (
-    url(r'^$', index),
+    path('', index),
 )
+
 
 #
 # Terminal
