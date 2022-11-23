@@ -14,3 +14,6 @@ class MyTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+# python3 ./step-006/manage.py test tests
+# python3 ./step-006/tests.py
