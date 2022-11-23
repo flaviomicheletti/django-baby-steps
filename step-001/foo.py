@@ -17,15 +17,15 @@ settings.configure(
 #
 # View
 #
-from django.conf.urls import url
-from django.http import HttpResponse
+# from django.urls import path
+# from django.http import HttpResponse
 
-def index(request):
-    return HttpResponse('Hello World')
+# def index(request):
+#     return HttpResponse('Hello World')
 
-urlpatterns = (
-    url(r'^$', index),
-)
+# urlpatterns = (
+#     path(r'^$', index),
+# )
 
 #
 # Terminal
