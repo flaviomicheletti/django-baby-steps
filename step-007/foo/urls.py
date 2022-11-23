@@ -1,6 +1,6 @@
-from django.conf.urls import url
+from django.urls import path
 from foo.views import index
 
-urlpatterns = (
-    url(r'^$', index),
-)
+urlpatterns = [
+    path('', index),
+]
