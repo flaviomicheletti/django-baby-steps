@@ -6,7 +6,8 @@ from django.conf import settings
 settings.configure(
     DEBUG = True,
     ALLOWED_HOSTS = ['localhost'],
-    ROOT_URLCONF = '__main__',
+    ROOT_URLCONF = '',
+    SECRET_KEY = 'django-insecure-u7_!un885z@tfdh^=leqq6y(v@hz)7*y8a7*dw+jxpf61*vajy',     
     MIDDLEWARE_CLASSES = (
         'django.middleware.common.CommonMiddleware',
         'django.middleware.csrf.CsrfViewMiddleware',
@@ -23,9 +24,9 @@ settings.configure(
 # def index(request):
 #     return HttpResponse('Hello World')
 
-# urlpatterns = (
+# urlpatterns = [
 #     path(r'^$', index),
-# )
+# ]
 
 #
 # Terminal
@@ -33,3 +34,7 @@ settings.configure(
 import sys
 from django.core.management import execute_from_command_line
 execute_from_command_line(sys.argv)
+
+#
+# ValueError: Empty module name
+#

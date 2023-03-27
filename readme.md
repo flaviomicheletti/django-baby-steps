@@ -20,17 +20,7 @@ Clone the project.
     git clone https://github.com/devfuria/django-baby-steps.git
     cd django-baby-steps/
 
-Launch the [virtualenv](http://www.devfuria.com.br/linux/cookbook/virtualenv/) in the current folder.
 
-    virtualenv .
-
-Turn on the virtual environment.
-
-    source bin/activate
-
-First of all, update the [pip](http://www.devfuria.com.br/linux/cookbook/pip/).
-
-    pip install --upgrade pip
 
 Install Django.
 

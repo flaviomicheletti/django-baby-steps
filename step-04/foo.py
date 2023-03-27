@@ -9,9 +9,9 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse('Hello World')
 
-urlpatterns = (
+urlpatterns = [
     path('', index),
-)
+]
 
 #
 # Terminal
