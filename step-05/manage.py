@@ -1,4 +1,4 @@
-import foo.settings
+import main.settings
 
 if __name__ == "__main__":
     import sys

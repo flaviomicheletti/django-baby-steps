@@ -1,4 +1,4 @@
-import settings
+import settings # is not accessed but is necessary
 
 #
 # View

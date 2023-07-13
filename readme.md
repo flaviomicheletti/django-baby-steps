@@ -6,8 +6,6 @@ Do you know how to put Django in a single script?
 
 Can you deconstruct the folder structure?
 
-Don't?
-
 So come with me and I'll show you!
 
 <br/><br/>
@@ -20,23 +18,10 @@ Clone the project.
     git clone https://github.com/devfuria/django-baby-steps.git
     cd django-baby-steps/
 
+Create a virtual environment.
+    
+    python3 -m venv .venv && . .venv/bin/activate
 
+To run
 
-Install Django.
-
-    python -m pip install Django
-    // or
-    pip install Django==4.1
-
-Testing...
-
-    python3 -c "import django; print(django.get_version())"
-
-    // or
-
-    python3 ./step-000/foo.py
-    # 4.1
-
-When you finish
-
-    deactivate
+    python manage.py runserver
