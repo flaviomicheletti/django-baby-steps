@@ -25,3 +25,7 @@ Create a virtual environment.
 To run
 
     python manage.py runserver
+    python manage.py runserver 8080
+    python manage.py runserver 0.0.0.0:8000
+
+    python manage.py migrate
